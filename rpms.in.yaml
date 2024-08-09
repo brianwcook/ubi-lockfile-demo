@@ -2,8 +2,10 @@ contentOrigin:
   # Define at least one source of packages, but you can have as many as you want.
   repofiles:
     # Either local path or url pointing to .repo file
-    - ./ubi9-redhat.repo
-    - ./ubi9-redhat-src.repo
+    #- ./ubi9-redhat.repo
+    #- ./ubi9-redhat-src.repo
+     - ./ubi.repo
+
 packages:
   # list of rpm names to resolve
   - golang
